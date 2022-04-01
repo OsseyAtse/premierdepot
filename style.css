@@ -1,3 +1,28 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 *{
 	padding: 0px;
 	margin: 0px;
@@ -6,4 +31,95 @@
 body{
 	background: url(fond.jpg) no-repeat;
 	background-size: cover;
+	padding-top: 75px;
+	width: 80%;
+	margin: auto;
 }
+
+img{
+	height: 35px;
+}
+
+.header{
+	display: flex;
+}
+
+.logo{
+	margin-right: 255px;
+}
+
+ul{
+	list-style-type: none;
+	display: flex;
+	padding-top: 20px;
+}
+ul li a{
+	text-decoration: none;
+	color:  #181818;
+}
+
+ul li a:hover{
+	text-decoration: underline 2px;
+}
+
+.menu{
+	display: flex;
+}
+
+.tab{
+	margin-left: 10px;
+	margin-top: 15px;
+	background: rgb(2, 2, 94);
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	height: 25px;
+	border-radius: 5px;
+}
+.lien{
+	padding-right: 70px;
+}
+.text{
+	margin-top: 150px;
+}
+.text h1{
+	color: rgb(2, 2, 94);
+	font-size: 3.3em;
+}
+.hhred{
+	color: red;
+}
+.paragraphe{
+	font-family: 'Dayrom', serif;
+	margin-bottom: 25px;
+}
+
+input[type="email"]{
+	background: white;
+	border: none;
+	height: 45px;
+	width: 260px;
+	text-align: center;
+}
+
+input[type="submit"]{
+	background: rgb(2, 2, 94);
+	border: none;
+	height: 45px;
+	width: 150px;
+	color: white;
+}
+
+.img{
+	margin-top: 45px;
+	margin-left: 150px;
+}
+
+
+
+
+
+
+
+
